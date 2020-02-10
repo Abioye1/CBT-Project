@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Questions</title>
     <link rel="stylesheet" href="libs/css/ui.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="libs/js/ui.js"></script>
-    <style>
+<style>
     p {
     text-align: center;
     font-size: 60px;
@@ -18,7 +19,8 @@
 <body>
     <p id="demo"></p>
     <div class="question">
-        <button id="sub2" type="submit">Submit</button>
+        <!-- <button id="sub2" type="submit">Submit</button> -->
+        <input class="btn btn-primary" type="submit" value="Submit">
              <h1>Question 1 of 30</h1>
              <br>
             
@@ -31,8 +33,10 @@
 <br>
 </div>
 </div>
-<button id="but1" type="submit">Previous<<<</button>
-<button id="but2" type="submit">Next>>></button>
+<!-- <button id="but1" type="submit">Previous<<<</button> -->
+<!-- <button id="but2" type="submit">Next>>></button> -->
+<button type="button" class="btn btn-outline-secondary">Previous<<<</button>
+<button type="button" class="btn btn-outline-secondary">Next>>></button>
 
 
 </body>

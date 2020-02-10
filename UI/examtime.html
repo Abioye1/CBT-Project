@@ -6,17 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Course Information</title>
     <link rel="stylesheet" href="libs/css/ui.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="libs/js/ui.js"></script>
 </head>
 <body>
     <form onsubmit="event.preventDefault(); valid();" action="#">
-    <img src="libs/imgs/suno.png" alt="Suno Logo" height="100px">
+        <div class="text-center">
+            <img src="libs/imgs/suno.png" class="rounded" alt="Suno Logo">
+          </div>
     <div class="info">
         <h3>Department: Mathematics and Computer Science</h3>
         <h3>Course Code: CSC 101</h3>
         <h3>Unit: 3</h3>
         <h3>Time Duration: 1hour</h3>
-        <button id="cont1" type="submit">Continue</button>
+        <!-- <button id="cont1" type="submit">Continue</button>
+        <button type="button" class="btn btn-success">Continue</button> -->
+        <button type="submit" class="btn btn-primary btn-sm">Continue</button>
+            
 
 
     </div>
